@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Filament\Resources\Records;
 
 use Filament\Schemas\Schema;
@@ -33,11 +35,8 @@ use App\Filament\Resources\Records\Pages\CreateRecord;
 use App\Filament\Resources\Records\Pages\EditRecord;
 use App\Infolists\Components\SpotifyAlbumPlayer;
 use App\Models\Record;
-use Filament\Forms;
-use Filament\Infolists;
 use Filament\Resources\Resource;
 use Filament\Support\Enums\FontWeight;
-use Filament\Tables;
 use Filament\Tables\Table;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;

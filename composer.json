@@ -7,11 +7,13 @@
     "license": "MIT",
     "require": {
         "php": "^8.2",
+        "bezhansalleh/filament-shield": "4.x-dev",
         "davidhsianturi/blade-bootstrap-icons": "^2.1",
         "filament/filament": "^4.0",
         "filament/spatie-laravel-media-library-plugin": "^4.0",
         "laravel/framework": "^12.0",
-        "laravel/tinker": "^2.10.1"
+        "laravel/tinker": "^2.10.1",
+        "tomatophp/filament-users": "^4.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",

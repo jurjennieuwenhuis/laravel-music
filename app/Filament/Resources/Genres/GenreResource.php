@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Filament\Resources\Genres;
 
 use Filament\Schemas\Schema;
@@ -13,11 +15,9 @@ use Filament\Actions\DeleteBulkAction;
 use Filament\Actions\ForceDeleteBulkAction;
 use Filament\Actions\RestoreBulkAction;
 use App\Filament\Resources\Genres\Pages\ListGenres;
-use App\Filament\Resources\GenreResource\Pages;
 use App\Models\Genre;
 use Filament\Forms\Components\TextInput;
 use Filament\Resources\Resource;
-use Filament\Tables;
 use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 
@@ -73,8 +73,6 @@ class GenreResource extends Resource
     {
         return [
             'index' => ListGenres::route('/'),
-            //'create' => Pages\CreateGenre::route('/create'),
-            //'edit' => Pages\EditGenre::route('/{record}/edit'),
         ];
     }
 
